@@ -1,0 +1,44 @@
+table {
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 5px;
+}
+#zero {
+    height: 60px;
+    width: 144px;
+    border-radius:62px;
+}
+input[type="text"]{
+    vertical-align: bottom;
+    display: flex; 
+    text-align: right;
+    height: 125px;
+    width: 288px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 50px;
+    
+}
+input[type="button"]{
+    border-radius: 100%;
+    border: none;
+    padding: 0px;
+    font-size: 20px;
+    margin: 0 auto;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+}
+.number {
+    background-color: #343434; 
+    color: white;
+}
+.botao-c {
+    background-color: #a5a5a5;
+}
+.operator {
+    background-color: #ff9f0a;
+    color: white;
+}

@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>Calculadora</title>
+        <link rel="stylesheet" href="static/css/style.css">
     </head>
     <body>
-        <table style="margin: 0 auto;">
+        <table>
+            <tr id="display">
+                <td colspan="4"><input type="text" class="display"></td>
+            </tr>
             <tr>
-                <td colspan="4"><input type="text" id="display"></td>
+                <td><input type="button" value="C" class="botao-c"></td>
+                <td><input type="button" value="CE" class="botao-c"></td>
+                <td><input type="button" value="%" class="botao-c"></td>
+                <td><input type="button" value="÷" class="operator"></td>
             </tr>
-            <tr style="display: flex; justify-content: space-between;">
-                <td><input type="button" value="7" id="numbers"></td>
-                <td><input type="button" value="8" id="numbers"></td>
-                <td><input type="button" value="9" id="numbers"></td>
-                <td><input type="button" value="/" id="operators"></td>
+            <tr>
+                <td><input type="button" value="7" class="number"></td>
+                <td><input type="button" value="8" class="number"></td>
+                <td><input type="button" value="9" class="number"></td>
+                <td><input type="button" value="×" class="operator"></td>
             </tr>
-            <tr style="display: flex; justify-content: space-between;">
-                <td><input type="button" value="4" id="numbers"></td>
-                <td><input type="button" value="5" id="numbers"></td>
-                <td><input type="button" value="6" id="numbers"></td>
-                <td><input type="button" value="×" id="operators"></td>
+            <tr>
+                <td><input type="button" value="4" class="number"></td>
+                <td><input type="button" value="5" class="number"></td>
+                <td><input type="button" value="6" class="number"></td>
+                <td><input type="button" value="-" class="operator"></td>
             </tr>
-            <tr style="display: flex; justify-content: space-between;">
-                <td><input type="button" value="1" id="numbers"></td>
-                <td><input type="button" value="2" id="numbers"></td>
-                <td><input type="button" value="3" id="numbers"></td>
-                <td><input type="button" value="-" id="operators"></td>
+            <tr>
+                <td><input type="button" value="1" class="number"></td>
+                <td><input type="button" value="2" class="number"></td>
+                <td><input type="button" value="3" class="number"></td>
+                <td><input type="button" value="+" class="operator"></td>
             </tr>
-            <tr style="display: flex; justify-content: space-between;">
-                <td><input type="button" value="0" id="numbers"></td>
-                <td><input type="button" value="," id="numbers"></td>
-                <td><input type="button" value="=" id="numbers"></td>
+            <tr>
+                <td colspan="2"><input type="button" value="0" class="number" id="zero"></td>
+                <td><input type="button" value="," class="number"></td>
+                <td><input type="button" value="=" class="operator"></td>
             </tr>
         </table>
 
